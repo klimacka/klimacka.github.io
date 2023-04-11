@@ -2909,6 +2909,12 @@ article.timeline .content .line { position: absolute; top: 3rem; bottom: 1.5rem;
 
 @media print { article.timeline .content .line { border-color: #787878; left: 1.5rem; } }
 
+article.timeline .content p { margin: 0; }
+
+article.timeline .content p + p { margin-top: 0.5rem; }
+
+article.timeline .content p:last-child { margin-bottom: 1rem; }
+
 article.timeline table { border: 0; border-collapse: collapse; }
 
 article.timeline table td { border: 0; }
